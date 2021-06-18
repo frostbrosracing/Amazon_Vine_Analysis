@@ -19,13 +19,17 @@ The Vine Program helps promote customer feedback through reviews of products the
   
 ![tools_dataset](https://user-images.githubusercontent.com/77071776/122621489-53b67580-d05b-11eb-8314-8decca5cca37.PNG)
 
-2. A customer DataFrame was created which aggregated all their reviews based on their `customer_id`.
+2. A customer DataFrame was created which aggregated all their reviews based on their `customer_id` and resulted in 1,053,515 unique customers 
   
 ![customers_table](https://user-images.githubusercontent.com/77071776/122621533-79dc1580-d05b-11eb-9734-9896dbafb6fa.PNG)
 
-3. A product DataFrame was created with duplicate products dropped.
+3. A product DataFrame was created with duplicate products dropped.  This resulted in 183,810 products.
   
 ![products_table](https://user-images.githubusercontent.com/77071776/122622538-a9d8e800-d05e-11eb-9e07-0443a7f8011d.PNG)
+
+4.  A review DataFrame was created with each of the the 1,741,100 reviews. 
+
+![review_id_table](https://user-images.githubusercontent.com/77071776/122622701-28358a00-d05f-11eb-814c-28715db726e7.PNG)
 
 
   
