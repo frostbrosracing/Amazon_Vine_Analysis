@@ -2,7 +2,7 @@
 
 ## Project Overview of the Analysis
 #### The goal of this project was to determine if there is any bias toward favorable reviews from Vine members.  
-The Vine Program helps promote customer feedback through reviews of products they are provided by Amazon.  Companies that use Amazon for their distribution pay a fee to Amazon to have their products reviewed.
+The Vine Program helps promote customer feedback through reviews of products they are provided by Amazon.  Companies that use Amazon for their distribution pay a fee to Amazon to have their products reviewed.  Amazon provides review information for a wide range of product categories and makes them available through their Amazon Simple Storage Service (Amazon S3).  This analysis was done on a dataset of reviews for the **tool** category.
 
 #### Resources
 - Data Source: <p>
@@ -13,6 +13,8 @@ The Vine Program helps promote customer feedback through reviews of products the
 - Database Resources:  Amazon Web Services (AWS), PostGreSQL, pgAdmin4
   
 ## Results of the Analysis
+![review_id_table](https://user-images.githubusercontent.com/77071776/122620631-1224cb00-d059-11eb-867c-6b1ebc0b668e.PNG)
+
 
 
   
