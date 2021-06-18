@@ -15,6 +15,8 @@ The Vine Program helps promote customer feedback through reviews of products the
 ## Results of the Analysis
 * The tools dataset contained over 1.7 million reviews.
 * These reviews were given by over 1 million customers for 183,810 unique products.  
+  
+#### Data Transformations in Google Colab with Spark
 1. The dataset was imported into a Google Colab notebook and transformed with Spark DataFrames.
   
 ![tools_dataset](https://user-images.githubusercontent.com/77071776/122621489-53b67580-d05b-11eb-8314-8decca5cca37.PNG)
@@ -33,7 +35,12 @@ The Vine Program helps promote customer feedback through reviews of products the
 
 ![vine_table](https://user-images.githubusercontent.com/77071776/122623376-70ee4280-d061-11eb-9797-0d6759409f13.PNG)
 
-
+5.  A connection was then made to the Amazon Web Services Relational Database Service (AWS RDS) and each of the DataFrames was written to a table in using pgAdmin4 and PostGreSQL.
   
+#### Calculations in Jupyter Notebook with Pandas
+1.  The `vine_table` was exported as a `.csv` file and imported into a Jupyter Notebook using Pandas for the bias calculations.
+ 
+
+
   
 ## Summary
