@@ -13,9 +13,10 @@ The Vine Program helps promote customer feedback through reviews of products the
 - Database Resources:  Amazon Web Services (AWS), PostGreSQL, pgAdmin4
   
 ## Results of the Analysis
-![review_id_table](https://user-images.githubusercontent.com/77071776/122620631-1224cb00-d059-11eb-867c-6b1ebc0b668e.PNG)
+* The tools dataset contained over 1.7 million reviews.
+* These reviews were given by over 1 million customers for 183,810 unique products.  
 
-test
+
 
   
   
