@@ -27,9 +27,11 @@ The Vine Program helps promote customer feedback through reviews of products the
   
 ![products_table](https://user-images.githubusercontent.com/77071776/122622538-a9d8e800-d05e-11eb-9e07-0443a7f8011d.PNG)
 
-4.  A review DataFrame was created with each of the the 1,741,100 reviews. 
+4.  A review DataFrame was created with each of the the 1,741,100 reviews.  Additionally, a DatFrame was created that conained the `review_id` and whether the review was part of the **Vine** review program.
 
 ![review_id_table](https://user-images.githubusercontent.com/77071776/122622701-28358a00-d05f-11eb-814c-28715db726e7.PNG)
+
+![vine_table](https://user-images.githubusercontent.com/77071776/122623376-70ee4280-d061-11eb-9797-0d6759409f13.PNG)
 
 
   
