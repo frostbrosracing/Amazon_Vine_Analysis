@@ -51,3 +51,4 @@ The Vine Program helps promote customer feedback through reviews of products the
   * The percentage of non-Vine 5-star reviews:  **99.61%**
     
 ## Summary
+Based on the analysis, it appears that there isn't any positivity bias for reviews in the Vine program.  On the contrary, it seems that people who are offered free products based on their participation in the program, might feel more responsibility to give more scritiny and detail in their evaluation of the item.  The results of this analysis clearly show that products offered through the Vine program are very unlikely to get a full 5-star review.  In order to dive deeper into the distribution of star ratings in the Vine program, it would be helpful to analyze the same calculations for each of the star ratings in the program.
