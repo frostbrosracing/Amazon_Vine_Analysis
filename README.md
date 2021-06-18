@@ -38,9 +38,16 @@ The Vine Program helps promote customer feedback through reviews of products the
 5.  A connection was then made to the Amazon Web Services Relational Database Service (AWS RDS) and each of the DataFrames was written to a table in using pgAdmin4 and PostGreSQL.
   
 #### Calculations in Jupyter Notebook with Pandas
-1.  The `vine_table` was exported as a `.csv` file and imported into a Jupyter Notebook using Pandas for the bias calculations.
- 
+1.  The `vine_table` was exported as a `.csv` file and imported into a Jupyter Notebook using Pandas for the bias calculations.  Upon review of the data in Pandas, there were 5 review_id records that had no rating data, vote data, or purchase data associated.  As a result, the calculations were conducted on the remaining 1,741,095 reviews.
 
+2.  The total number of reviews, the number of 5-star reviews (total, and Vine/non_Vine), and the percentage of 5-star reviews were calculated and formatted into a separate Pandas DataFrame.
 
+![pandas_review_summary](https://user-images.githubusercontent.com/77071776/122624042-1b676500-d064-11eb-8d42-0afb9c62fdcd.PNG)
   
+  * The total number of reviews:  **1,741,095**
+  * The total number of Vine 5-star reviews:  **4,328**
+  * The total number of non_Vine 5-star reviews:  **1,109,235**
+  * The percentage of Vine 5-star reviews:  **0.39%**
+  * The percentage of non-Vine 5-star reviews:  **99.61%**
+    
 ## Summary
